@@ -1,0 +1,34 @@
+{
+  "name": "cqrs-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.6",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "framer-motion": "^7.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@chakra-ui/icons": "^2.0.6",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-query": "^1.2.9",
+    "@vitejs/plugin-react": "^2.0.0",
+    "axios": "^0.27.2",
+    "msw": "^0.44.2",
+    "react-query": "^3.34.19",
+    "typescript": "^4.3",
+    "vite": "^3.0.0"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
